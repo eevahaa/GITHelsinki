@@ -9,8 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
@@ -21,6 +20,8 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//inpref.s3.amazonaws.com/frosmo.easy.js" ></script>
+        <script type="text/javascript" charset="utf-8" src="//inpref.s3.amazonaws.com/sites/girlsintechhelsink_58134c528499c.js" ></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -33,10 +34,9 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Main</a></li>
-                    <li><a href="#">Article</a></li>
-                    <li><a href="#">Persona</a></li>
-                    <li><a href="#">Trends</a></li>
-                    <li><a href="#">Insta</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <li><a href="#persona">Persona</a></li>
+                    <li><a href="#trends">Trends</a></li>
                 </ul>
             </div>
         </nav>
@@ -52,14 +52,14 @@
                 </div>
             </div>
             <div class="row">
-                <h2>Article</h2>
-                <!--    <img src='http://theimpression.com/wp-content/uploads/2014/09/calvin-klein-fashion-show-spring-2015-the-impression-featured.jpg'>
-                    <p> Upcoming events this year are spectacular </p> -->
+                <h2 id="article">Article</h2>
+                    <img class="img-responsive" src='http://theimpression.com/wp-content/uploads/2014/09/calvin-klein-fashion-show-spring-2015-the-impression-featured.jpg'>
+                    <p> Upcoming events this year are spectacular </p> 
             </div>
 
             <div class="row">
                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2>Persona</h2>
+                    <h2 id="persona">Persona</h2>
                </div>
                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <h3>Heading 3</h3>
@@ -90,7 +90,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2>Trends</h2>
+                    <h2 id="trends">Trends</h2>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class=" flex-container">
@@ -124,7 +124,9 @@
                     </div>
                 </div>
             </div>
+            
         </div>
+        <div id="wobbly">HELLO</div>
 
         <! —- scripts should be in the button of the page -->
         <! —- jQuery (necessary for Bootstrap’s JavaScript plugins) -->
