@@ -1,3 +1,3 @@
 # GITHelsinki
 
-public_html / index.html
+https://eevahaa.github.io/GITHelsinki/public_html/
