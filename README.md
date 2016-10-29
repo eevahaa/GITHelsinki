@@ -1,3 +1,3 @@
 # GITHelsinki
 
-my weird fashion site
+public_html / index.html
